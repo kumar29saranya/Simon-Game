@@ -18,7 +18,7 @@ $(document).keypress(function() {
   }
 });
 
-$(".btn").click(function() {
+$(".bton").click(function() {
 
     var userChosenColour = $(this).attr("id");
     userClickedPattern.push(userChosenColour);
