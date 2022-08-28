@@ -89,6 +89,5 @@ function animatePress(currentColour){
 $(document).ready(function(){
     $(".newbtn").click(function(){
       $(".help").toggle();
-      $(this).html($(this).html() == 'Show Help' ? 'Hide Help' : 'Show Help');
     });
   });
