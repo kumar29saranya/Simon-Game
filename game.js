@@ -6,7 +6,7 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keypress(function() {
+$(document).bind("keypress tap",function() {
   if (!started) {
 
     $("#level-title").text("Level " + level);
@@ -49,7 +49,7 @@ function checkAnswer(currentLevel){
         setTimeout(function(){
             $("body").removeClass("game-over");
         },200);
-        $("#level-title").text("Game Over, Press any key to Restart");
+        $("#level-title").text("Game Over, Press any key or Tap anywhere to Restart");
         startOver();
     }
 }
