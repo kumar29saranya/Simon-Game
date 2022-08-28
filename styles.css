@@ -28,7 +28,7 @@ body {
   border-radius: 20%;
 }
 .startbtn{
-  width: 40%;
+  width: 50%;
   font-size: 2.5rem;
 }
 /*.allbuttons{
@@ -94,7 +94,22 @@ h3{
     height: 30%;
     width: 50%;
   }
-
+  #level-title {
+    
+    font-size: 7rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  .bton {
+    
+    height: 300px;
+    width: 300px;
+   
+  }
+  .startbtn{
+    
+    font-size: 3rem;
+  }
     
     
   
