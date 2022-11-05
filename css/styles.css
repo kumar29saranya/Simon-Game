@@ -1,0 +1,234 @@
+body{
+    font-family: 'Quicksand';
+    
+}
+
+p{
+    color:rgb(122, 117, 117);
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Cairo Play', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+} 
+
+.nav-item{
+    padding:0 18px;
+}
+.nav-item:hover{
+    transform: scale(1.1);
+}
+.nav-link{
+    font-size:1.5rem;
+}
+
+
+
+/* BUTTONS */
+.download-button{
+    margin:5% 3% 5% 0;
+    
+    
+}
+.download-button:hover{
+    transform: scale(1.1);
+    
+}
+.vertical-center {
+    text-align:center;
+  }
+.gamepage-btn{
+    color: transparent;
+    text-decoration: none;
+}
+/* HEADINGS */
+.big-heading{
+    font-family: 'Poppins';
+    text-align: center;
+    color:#ffffff;
+    font-weight:600;
+    font-size:3.5rem;
+    line-height:1.5;
+}
+
+/* TITLE SECTION */
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+#title.container-fluid{
+    padding:3% 15% 2%;
+}
+#intro{
+    background-image: linear-gradient(#071D26,rgb(213, 213, 213),#ffff, #ffff);
+}
+#title{
+    text-align: left;
+}
+
+.title-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+/* FEATURES */
+
+.features-container{
+    padding:5% 15% 10%;
+    
+ 
+}
+.feature-box{
+    padding:2%; 
+    text-align: center;
+    
+}
+.fea{
+    font-family: 'Cairo Play', cursive;
+   font-weight: 800;
+   font-size: 4.5rem;
+}
+.fea:hover{
+    color:#77b3c5;
+}
+
+
+/* Reviews Section */
+#reviews{
+    background-color:#041b32;
+    color:#fff;
+    text-align: center;
+}
+.review-heading{
+    font-family: 'Poppins';
+    text-align: center;
+    padding:5% 3% 0;
+    font-weight:bold;
+    font-size:3rem;
+}
+.review-text{
+    color:#fff;
+    text-align:center;
+    font-size: 3rem;
+    font-family: "Montserrat";
+}
+
+.review-details{
+    color:#fff;
+}
+.star-icon{
+    color:goldenrod;
+    display: inline;
+}
+
+.review-image{
+    width:70%;
+    border-radius:5%;
+    margin:0 100px;
+}
+
+
+
+/* Sign up SECTION */
+#signup{
+    text-align: center;
+    background-color:#f8eee7;
+    padding:100px;
+}
+
+.signup-column{
+    padding:3% 2%;
+}
+.signup-box{
+    border:7px solid #94618E;
+    background-color:#f8eee7;
+    padding:10%;
+}
+.signup-box:hover{
+    border:7px solid #94618E;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    transform:scale(1.1);
+}
+.signup-text{
+    font-weight: 600;
+    font-size:2.8rem;
+    line-height:3rem;
+}
+
+/* CTA */
+#cta{
+    text-align: center;
+    background-color:#77b3c5;
+    color:white;
+    font-size: 50px;
+    font-size: 3rem;
+    font-family: "Montserrat";
+    
+}
+.download-button-cta{
+    margin:5% 2% 0% 2%;
+}
+.download-button-cta:hover{
+    transform: scale(1.1);
+    
+}
+
+.cta-heading{
+    font-size: 3.5rem;;
+}
+.cta-content{
+    padding:7% 15% 7%;
+}
+/* Footer Section */
+#footer{
+    text-align: center;
+}
+.footer-content{
+    padding:7% 7% 7%;
+}
+.social-icon{
+    margin:20px 10px;
+}
+
+.social-icon:hover{
+    color:#77b3c5;
+}
+
+@media (max-width: 1028px){
+    
+    *{
+        text-align:center;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    } 
+    
+    .features-container{
+        padding:10% 15% 10%;
+    }
+    .review-image{
+        width:70%;
+        border-radius:5%;
+        margin:0 ;
+    }
+    .signup-text{
+        font-size:2rem;
+        width:100%
+    }   
+}
+
+
