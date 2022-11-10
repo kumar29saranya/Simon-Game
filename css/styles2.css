@@ -15,9 +15,23 @@ body {
   justify-content: center;
   align-self: center;
   margin: auto;
+  line-height: 5rem;
+  padding-top: 10px;
+  
+}
+.level-subtitle{
+  color: white;
+  font-family: 'Cairo Play', cursive;
+  font-weight:700;
+  font-size: 3rem;
+  text-align: center;
+  word-spacing: 5pt;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
   line-height: 7rem;
 }
-
 .container {
   display: block;
   width: 50%;
