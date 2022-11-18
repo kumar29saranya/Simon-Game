@@ -10,6 +10,7 @@ $(".startbtn").click(function() {
   if (!started) {
 
     $("#level-title").text("Level " + level);
+    $("#level-subtitle").text("Game Over! Start again...");
     setTimeout(function(){
         nextSequence();
     },1000)
