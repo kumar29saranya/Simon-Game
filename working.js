@@ -10,7 +10,7 @@ $(".startbtn").click(function() {
   if (!started) {
 
     $("#level-title").text("Level " + level);
-    $("#level-subtitle").text("Press start to begin");
+    $("#level-subtitle").text("");
     setTimeout(function(){
         nextSequence();
     },1000)
