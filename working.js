@@ -50,8 +50,11 @@ function checkAnswer(currentLevel){
         setTimeout(function(){
             $("body").removeClass("game-over");
         },200);
-        $("#level-title").text("Your Score: "+level+".");
-        $("#level-subtitle").text("Game Over! Start again...");
+        if(level==0)
+        $("#level-title").text("Please press start");
+        else
+        {$("#level-title").text("Your Score: "+(level-1)+".");
+        $("#level-subtitle").text("Game Over! Start again...");}
         
         startOver();
     }
